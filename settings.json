@@ -1,26 +1,32 @@
 {
-  // Define o tema do VSCode
+  // Set how the editor starts up
+  "workbench.startupEditor": "newUntitledFile",
+  // Set default theme
   "workbench.colorTheme": "Dracula",
-  // Configura família da fonte
+  // Set theme of icons in sidebar
+  "workbench.iconTheme": "material-icon-theme",
+  // Set editor font
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
+  // Applies vertical lines to remind you to break lines in very large codes
   "editor.rulers": [80, 120],
+  // Set up automatic text formatting
   "editor.formatOnSave": true,
   "eslint.autoFixOnSave": true,
   "tslint.autoFixOnSave": true,
   "prettier.eslintIntegration": true,
   "prettier.tslintIntegration": true,
-  // Aplica um sinal visual na esquerda da linha selecionada
+  // Applies a visual signal to the left of the selected line
   "editor.renderLineHighlight": "gutter",
-  // Define terminal padrão
+  // Set default windows terminal
   "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
-  // Define o tema dos ícones na sidebar
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.startupEditor": "newUntitledFile",
+  // Sets the default tab size
   "editor.tabSize": 2,
+  // Set default window zoom
   "window.zoomLevel": 0,
+  // Disable publisher recommendations
   "extensions.ignoreRecommendations": false,
+  // Configure react file syntax
   "emmet.syntaxProfiles": {
     "javascript": "jsx",
     "nunjucks": "html"
@@ -29,12 +35,18 @@
     "javascript": "javascriptreact",
     "nunjucks": "html"
   },
+  // Disable file move updates
   "javascript.updateImportsOnFileMove.enabled": "never",
   "typescript.updateImportsOnFileMove.enabled": "never",
+  // Enable debug logging mode
   "typescript.tsserver.log": "verbose",
+  // Enable navigation breadcrumbs
   "breadcrumbs.enabled": true,
-  "git.enableSmartCommit": true,
+  // Enable documentation
   "editor.parameterHints.enabled": false,
+  // Enable smart commit
+  "git.enableSmartCommit": true,
+  // Configure operating system folder options
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false
 }

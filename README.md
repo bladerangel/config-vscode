@@ -13,3 +13,7 @@
 ## 2) Fira Code Font:
 
 Download: https://github.com/tonsky/FiraCode
+
+## 3) VS Code Configuration:
+
+Edit the file: _settings.json_
