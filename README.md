@@ -1,0 +1,15 @@
+## 1) Install Extensions:
+
+1. Dracula Official
+2. Material Icon Theme
+3. Color Highlight
+4. ESLint
+5. TSLint (deprecated)
+6. Prettier - Code formatter
+7. Live Server
+8. GraphQL
+9. vscode-styled-components
+
+## 2) Fira Code Font:
+
+Download: https://github.com/tonsky/FiraCode
