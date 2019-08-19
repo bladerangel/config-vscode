@@ -7,8 +7,10 @@
 5. TSLint (deprecated)
 6. Prettier - Code formatter
 7. Live Server
-8. GraphQL
-9. vscode-styled-components
+8. DotENV
+9. GraphQL
+10. vscode-styled-components
+
 
 ## 2) Fira Code Font:
 
