@@ -8,8 +8,6 @@
   // Set editor font
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  // Applies vertical lines to remind you to break lines in very large codes
-  "editor.rulers": [80, 120],
   // Set up automatic text formatting
   "editor.formatOnSave": true,
   "eslint.autoFixOnSave": true,
