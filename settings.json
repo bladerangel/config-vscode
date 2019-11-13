@@ -11,6 +11,24 @@
   // Set up automatic text formatting
   "editor.formatOnSave": true,
   "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "javascriptreact",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
   "tslint.autoFixOnSave": true,
   "prettier.eslintIntegration": true,
   "prettier.tslintIntegration": true,
