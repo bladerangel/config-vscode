@@ -10,28 +10,17 @@
   "editor.fontLigatures": true,
   // Set up automatic text formatting
   "editor.formatOnSave": true,
-  "eslint.autoFixOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "editor.rulers": [80, 120],
   "eslint.validate": [
-    {
-      "language": "javascript",
-      "autoFix": true
-    },
-    {
-      "language": "javascriptreact",
-      "autoFix": true
-    },
-    {
-      "language": "typescript",
-      "autoFix": true
-    },
-    {
-      "language": "typescriptreact",
-      "autoFix": true
-    }
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
   ],
   "tslint.autoFixOnSave": true,
-  "prettier.eslintIntegration": true,
-  "prettier.tslintIntegration": true,
   // Applies a visual signal to the left of the selected line
   "editor.renderLineHighlight": "gutter",
   // Set default windows terminal
