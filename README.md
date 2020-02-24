@@ -8,9 +8,9 @@
 6. Prettier - Code formatter
 7. Live Server
 8. DotENV
-9. GraphQL
-10. vscode-styled-components
-
+9. Document This
+10. GraphQL
+11. vscode-styled-components
 
 ## 2) Fira Code Font:
 
