@@ -9,8 +9,7 @@
 7. Live Server
 8. DotENV
 9. Document This
-10. GraphQL
-11. vscode-styled-components
+10. HTMLHint
 
 ## 2) Fira Code Font:
 
